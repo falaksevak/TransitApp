@@ -12,7 +12,11 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-
+/*
+ * Useful links: http://www.actransit.org/rider-info/stops/transbay/#NX3
+ * http://api.actransit.org/transit/Help/Api/GET-route-routeName-tripestimate_fromStopId_toStopId
+ * Example: https://api.actransit.org/transit/route/nx3/tripestimate?fromStopId=51055&toStopId=50018&token=2AE9E5DBE45337250F5EA0A568650A81
+ */
 object TransitApi {
 
     private val BART_API_KEY = "MW9S-E7SL-26DU-VV8V"
